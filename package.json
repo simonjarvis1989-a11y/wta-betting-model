@@ -1,0 +1,14 @@
+{
+  "name": "wta-betting-model",
+  "version": "1.0.0",
+  "description": "WTA Tennis Elo Rating and Betting Model",
+  "scripts": {
+    "load-data": "node 03_load_historical_data.js",
+    "calculate-elo": "node 04_calculate_elo.js",
+    "predict": "node 05_predict_match.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}
